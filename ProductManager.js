@@ -130,7 +130,7 @@ console.log('Producto id 2: ', productManager.getProductById(2));
 // Eliminar producto
 productManager.deleteProduct(3);
 // Actualizar producto
-productManager.updateProducts(2, { title: 'Hola Lucía', stock: 1 });
+productManager.updateProducts(2, { title: 'Hola Lucía',description: 'La mejor tutora', stock: 1 });
 // Lista de productos
 products = productManager.getProducts();
-console.log('Lista de productos: ', products);
+console.log('Lista de productos: ', products); 
