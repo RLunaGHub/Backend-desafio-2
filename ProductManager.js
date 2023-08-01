@@ -131,6 +131,6 @@ console.log('Producto id 2: ', productManager.getProductById(2));
 productManager.deleteProduct(3);
 // Actualizar producto
 productManager.updateProducts(2, { title: 'Hola Lucía', stock: 1 });
-// mostrar productos
+// Lista de productos
 products = productManager.getProducts();
 console.log('Lista de productos: ', products);
