@@ -80,8 +80,8 @@ const productManager = new ProductManager('./products.txt');
 // Añadir productos
 productManager.addProduct(
 	new Product({
-		title: 'Este es un producto prueba',
-		description: 'Un producto',
+		title: 'producto prueba',
+		description: 'Este es un producto prueba',
 		price: 200,
 		thumbnail: 'Sin imagen',
 		code: "abc123",
@@ -90,8 +90,8 @@ productManager.addProduct(
 );
 productManager.addProduct(
 	new Product({
-		title: 'Este es un producto prueba',
-		description: 'Un producto',
+		title: 'producto prueba',
+		description: 'Este es un producto prueba',
 		price: 200,
 		thumbnail: 'Sin imagen',
 		code: "abc200",
@@ -101,8 +101,8 @@ productManager.addProduct(
 
 productManager.addProduct(
 	new Product({
-		title: 'Este es un producto prueba',
-		description: 'Un producto',
+		title: 'producto prueba',
+		description: 'Este es un producto prueba',
 		price: 200,
 		thumbnail: 'Sin imagen',
 		code: "abc300",
@@ -113,8 +113,8 @@ productManager.addProduct(
 // Añadir producto con mismo codigo
 productManager.addProduct(
 	new Product({
-		title: 'Este es un producto prueba',
-		description: 'Un producto',
+		title: 'producto prueba',
+		description: 'Este es un producto prueba',
 		price: 200,
 		thumbnail: 'Sin imagen',
 		code: "abc123",
